@@ -1,5 +1,8 @@
 # 3D-settlement-development
 
+![ArcGIS API for JavaScript](http://osgl.ethz.ch/showcases/settlement-development-of-zurich-arcgis-api/thumbnail.png)
+![Cesium](http://osgl.ethz.ch/showcases/settlement-development-of-zurich-cesium/thumbnail.png)
+
 - [Live Sample ArcGIS API for JavaScript](http://osgl.ethz.ch/showcases/settlement-development-of-zurich-arcgis-api/)
 - [Live Sample Cesium](http://osgl.ethz.ch/showcases/settlement-development-of-zurich-cesium/)
 

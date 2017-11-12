@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Use correct character set. -->
+  <meta charset="utf-8">
+  <!-- Tell IE to use the latest, best version. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <title>Cesium - Sample Application</title>
+  <script src="/Build/Cesium/Cesium.js"></script>
+
+  <!-- noUISlider -->
+  <link href="lib/slider/nouislider.min.css" rel="stylesheet">
+  <script src="lib/slider/nouislider.min.js"></script>
+  <script src="lib/wnumb/wNumb.js"></script>
+
+  <style>
+    @import url(/Build/Cesium/Widgets/widgets.css);
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: "Arial"
+    }
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="cesiumContainer"></div>
+  <div id="header">
+    <div id="headerTitle">Cesium - Sample Application</div>
+  </div>
+  <div id="timeline">
+    <div id="soft"></div>
+  </div>
+  <div id="timeline-count">1850</div>
+  <figure>
+    <button id="button-play" name="play"></button>
+  </figure>
+  <figure>
+    <button id="button-stop" name="stop"></button>
+  </figure>
+  <div id="legend">
+    <div id="legend-title">Legend</div>
+    <div class="layer" id="layer1">
+      <div class="box" id="box1"></div>
+      <div class="layername">Future buildings after 2016</div>
+    </div>
+    <div class="layer" id="layer2">
+      <div class="box" id="box2"></div>
+      <div class="layername">Buildings in construction at year x</div>
+    </div>
+    <div class="layer" id="layer3">
+      <div class="box" id="box3"></div>
+      <div class="layername">Existing buildings at year x</div>
+    </div>
+    <div class="layer" id="layer4">
+      <div class="box" id="box4"></div>
+      <div class="layername">Buildings without construction year</div>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    top: 50px;
+    height: calc(100% - 50px);
+    width: 100%;
+    font-family: Arial;
+  }
+
+
+#header{
+  position: absolute;
+  top: 0px;
+  height: 40px;
+  font-size: 20px;
+  padding-top: 10px;
+  background: white;
+  width: 100%;
+  background: #034e7b
+}
+
+#headerTitle{
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 5px;
+  background: #034e7b;
+  color: white
+}
+
+#viewDiv {
+  margin-top: 50px;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+#timeline{
+  position: absolute;
+    bottom: 0px;
+    height: 100px;
+    background: #034e7b;
+    color: white;
+    width: 100%;
+}
+
+#soft{
+    width: 90%;
+    left: 100px;
+    top: 30px;
+    height: 8px;
+    background-color: #fda606;
+    border-radius: 0px;
+}
+
+#timeline-count{
+     position: absolute;
+    bottom: 125px;
+    font-size: 60pt;
+    color: #034e7b;
+    left: 2%;
+    z-index: 99;
+}
+
+/* play button 
+source: https://stackoverflow.com/questions/28639142/css-creating-a-play-button */
+
+figure {
+position: absolute;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    bottom: 10px;
+    left: -30px;
+}
+
+/* play button */
+
+figure button[name="play"] {
+  width: 50px;
+  height: 50px;
+  background: #fda606;
+  border: none;
+  border-radius: 100%;
+  margin: auto;
+  cursor: pointer;
+}
+
+figure button[name="play"]:focus {
+  outline: 0;
+  border: 1px solid hsl(210, 58%, 69%);
+  box-shadow: 0 0 0 3px hsla(210, 76%, 57%, 0.5);
+}
+
+figure button[name="play"]::after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  border-style: solid;
+  border-width: 10px 0 10px 20px;
+  border-color: transparent transparent transparent white;
+}
+
+/* stop button */
+
+figure button[name="stop"] {
+  display: none;
+  width: 50px;
+  height: 50px;
+  background: #fda606;
+  border: none;
+  border-radius: 100%;
+  margin: auto;
+  cursor: pointer;
+}
+
+figure button[name="stop"]:focus {
+  outline: 0;
+  border: 1px solid hsl(210, 58%, 69%);
+  box-shadow: 0 0 0 3px hsla(210, 76%, 57%, 0.5);
+}
+
+figure button[name="stop"]::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    left: 0px;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: white white white white;
+}
+
+/* override noUIslider */
+
+.noUi-value-horizontal{
+  top: 40%;
+  color: white;
+  font-size: 9pt
+}
+
+.noUi-pips-horizontal{
+  height: 60px;
+  top: -3px;
+}
+
+.noUi-horizontal .noUi-handle{
+    width: 16px;
+    left: -9px;
+    top: -11px;
+    background-color: #fda606;
+}
+
+.noUi-handle{
+    border: 1px solid white;
+    border-radius: 0px;
+    background: #FFF;
+    box-shadow: none;
+}
+
+.noUi-handle:after{
+  content: none;
+} 
+
+.noUi-handle:before{
+  content: none;
+}

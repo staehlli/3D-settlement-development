@@ -1,0 +1,7 @@
+*.geojson
+cesium/ThirdParty/
+cesium/Source/
+cesium/Apps/
+cesium/Build/
+cesium/Specs/
+cesium/node-modules/

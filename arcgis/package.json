@@ -1,0 +1,18 @@
+{
+	"name": "3D-settlement-development-arcgis",
+	"version": "1.0.0",
+	"description": "3D Settlement Development with ArcGIS API for JavaScript",
+	"dependencies": {
+		"nouislider ": "10.1.0",
+		"wnumb": "1.1.0"
+	},
+	"repository": {
+		"type": "git"
+	},
+	"main": "index.html",
+	"keywords": [
+		"3D city model", "animation"
+	],
+	"author": "Lisa Stähli",
+	"license": "Apache-2.0"
+}

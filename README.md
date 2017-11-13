@@ -25,13 +25,17 @@ The following code for both API samples can be used to build your own 3D settlem
 ### ArcGIS API for JavaScript
 
 1. Fork and clone (or download) this repo.
-2. Publish your own dataset with 3D buildings and a year attribute to ArcGIS Online.
-3. Retrieve the Service URL of your published data set.
-4. In the repo, move to folder "arcgis" and adjust the code in js/app.js on all TODOs:
+2. Create the node_modules folder by prompting in folder "arcgis":
+```
+$ npm install
+```
+3. Publish your own dataset with 3D buildings and a year attribute to ArcGIS Online.
+4. Retrieve the Service URL of your published data set.
+5. In the repo, move to folder "arcgis" and adjust the code in js/app.js on all TODOs:
 - add your Service URL
 - add the name of the year attribute
 - change the view.goTo property so your application zooms to your city/dataset
-5. Done!
+6. Done!
 
 ### Cesium
 

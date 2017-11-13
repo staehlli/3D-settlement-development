@@ -44,21 +44,13 @@ $ npm install
 ```
 $ npm install
 ```
-3. Create the build folders for Cesium by prompting in folder "cesium":
-```
-$ npm run build
-```
-4. Start the Cesium sample (HTTP test server) by prompting in folder "cesium":
-```
-$ npm start
-```
-5. Convert your own dataset with 3D buildings and a year attribute as 3D Tiles (e.g. with FME).
-6. Move your dataset to folder cesium/3d-tiles.
-7. In the repo, move to folder cesium/js and adjust the code in app.js on all TODOs:
+3. Convert your own dataset with 3D buildings and a year attribute as 3D Tiles (e.g. with FME).
+4. Move your dataset to folder cesium/3d-tiles.
+5. In the repo, move to folder cesium/js and adjust the code in app.js on all TODOs:
 - add the name of your 3d-tiles
 - change the name of the year attribute
 - change the camera.flyTo property so your application zooms to your city/dataset
-8. Done!
+6. Done!
 
 ## Copyright ETH Zurich
 

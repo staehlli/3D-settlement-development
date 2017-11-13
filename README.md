@@ -1,6 +1,6 @@
 # 3D-settlement-development
 
-Check out the Live Demos for the Zurich example: [Demo](http://osgl.ethz.ch/showcases/#usability-of-virtual-globe-toolkits) 
+Check out the Live Demos for the Zurich example on the website of the Open Source Geospatial Laboratory at ETH Zurich: [Demo](http://osgl.ethz.ch/showcases/#usability-of-virtual-globe-toolkits) 
 
 ![ArcGIS API for JavaScript](http://osgl.ethz.ch/showcases/settlement-development-of-zurich-arcgis-api/thumbnail.png)
 ![Cesium](http://osgl.ethz.ch/showcases/settlement-development-of-zurich-cesium/thumbnail.png)
